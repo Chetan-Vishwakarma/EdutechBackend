@@ -13,7 +13,7 @@ app.use(cors());
 app.use(fileUpload({
     useTempFiles:true
 }))
-const port = process.env.PORT;
+const port = process.env.PORT || 8000;
 // const username = process.env.NAME;
 // const password = process.env.PASSWORD;
 
